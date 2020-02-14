@@ -15,17 +15,17 @@ def populate():
 
 	python_pages = [
 		{'title': 'Official Python Tutorial',
-		'url':'http://docs.python.org/3/tutorial/', 'views': 10},
+		'url':'http://docs.python.org/3/tutorial/', 'views': 30},
 		{'title':'How to Think like a Computer Scientist',
-		'url':'http://www.greenteapress.com/thinkpython/', 'views': 22},
+		'url':'http://www.greenteapress.com/thinkpython/', 'views': 29},
 		{'title':'Learn Python in 10 Minutes',
-		'url':'http://www.korokithakis.net/tutorials/python/', 'views': 3} ]
+		'url':'http://www.korokithakis.net/tutorials/python/', 'views': 22} ]
 
 	django_pages = [
 		{'title':'Official Django Tutorial',
-		'url':'https://docs.djangoproject.com/en/2.1/intro/tutorial01/', 'views': 4},
+		'url':'https://docs.djangoproject.com/en/2.1/intro/tutorial01/', 'views': 21},
 		{'title':'Django Rocks',
-		'url':'http://www.djangorocks.com/', 'views': 5},
+		'url':'http://www.djangorocks.com/', 'views': 15},
 		{'title':'How to Tango with Django',
 		'url':'http://www.tangowithdjango.com/', 'views': 6} ]
 
