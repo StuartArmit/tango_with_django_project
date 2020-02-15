@@ -14,26 +14,18 @@ def populate():
 	# through each data structure, and add the data to our models.
 
 	python_pages = [
-		{'title': 'Official Python Tutorial',
-		'url':'http://docs.python.org/3/tutorial/', 'views': 30},
-		{'title':'How to Think like a Computer Scientist',
-		'url':'http://www.greenteapress.com/thinkpython/', 'views': 29},
-		{'title':'Learn Python in 10 Minutes',
-		'url':'http://www.korokithakis.net/tutorials/python/', 'views': 22} ]
+		{'title':'Official Python Tutorial', 'url':'http://docs.python.org/3/tutorial/', 'views': 30},
+		{'title':'How to Think like a Computer Scientist', 'url':'http://www.greenteapress.com/thinkpython/', 'views': 29},
+		{'title':'Learn Python in 10 Minutes', 'url':'http://www.korokithakis.net/tutorials/python/', 'views': 22} ]
 
 	django_pages = [
-		{'title':'Official Django Tutorial',
-		'url':'https://docs.djangoproject.com/en/2.1/intro/tutorial01/', 'views': 21},
-		{'title':'Django Rocks',
-		'url':'http://www.djangorocks.com/', 'views': 15},
-		{'title':'How to Tango with Django',
-		'url':'http://www.tangowithdjango.com/', 'views': 6} ]
+		{'title':'Official Django Tutorial', 'url':'https://docs.djangoproject.com/en/2.1/intro/tutorial01/', 'views': 21},
+		{'title':'Django Rocks', 'url':'http://www.djangorocks.com/', 'views': 15},
+		{'title':'How to Tango with Django', 'url':'http://www.tangowithdjango.com/', 'views': 6} ]
 
 	other_pages = [
-		{'title':'Bottle',
-		'url':'http://bottlepy.org/docs/dev/', 'views': 7},
-		{'title':'Flask',
-		'url':'http://flask.pocoo.org', 'views': 8} ]
+		{'title':'Bottle', 'url':'http://bottlepy.org/docs/dev/', 'views': 7},
+		{'title':'Flask', 'url':'http://flask.pocoo.org', 'views': 8} ]
 
 	cats = {'Python': {'pages': python_pages, 'views': 128, 'likes': 64},
 		'Django': {'pages': django_pages, 'views': 64, 'likes': 32},
