@@ -8,9 +8,12 @@
 {% block body_block %}
 
 	<div>
-		<h1 class="page-header">About Page</h1>	
+	<h1>Rango says...</h1>
 		'here is the about page.' <br />
 		<strong>{{ boldmessage }}</strong><br />
+	</div>
+	<div>
+		<p>Visits: {{ visits }}</p>
 		<img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" /> 
 		<img src="{{ MEDIA_URL }}cat.jpg" alt="Picture of a Cat." />
 	</div>
